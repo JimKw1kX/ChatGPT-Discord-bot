@@ -27,11 +27,14 @@ or 3.2 Install from PowerShell
 
 run Powershell as Administrator then run
 
+```powershell
+
+PS C:\Windows\system32> choco install jq -y 
+
 ```
-choco install jq -y
- 
-```
+
 if choco is not installed then run
+
 ```powershell
 
 
