@@ -14,4 +14,4 @@ This tool was built based on [ChatGPT bypass](https://github.com/GrimOutlaw/Chat
 
 2. After run the tool
 
-![Picture3.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/Picture%203.png)
+![Picture3.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/Figure%203.png)
