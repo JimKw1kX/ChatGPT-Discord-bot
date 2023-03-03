@@ -11,11 +11,11 @@ This tool leverages the [text-davinci-003](https://platform.openai.com/docs/mode
 
 https://www.python.org/downloads/
 
-2. Install `requests`
+2. Install `requests` via CMD
 
-```bash
+```powershell
 
-pip3 install requests
+C:\User\user> pip3 install requests
 
 ```
 3. Install `jq`
