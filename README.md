@@ -15,7 +15,7 @@ https://www.python.org/downloads/
 
 ```bash
 
-pip3 install `requests`
+pip3 install requests
 
 ```
 3. Install `jq`
