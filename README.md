@@ -5,6 +5,18 @@
 This tool leverages the [text-davinci-003](https://platform.openai.com/docs/models/gpt-3-5) API model and it does not restric malicous contents referring to this [blog](https://arstechnica.com/information-technology/2023/02/now-open-fee-based-telegram-service-that-uses-chatgpt-to-generate-malware/).
 
 
+You will need to add a API key from your OpenAI account as blow shown
+
+![Figure 4](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/API.png)
+
+Then replce the `API-KEY` with your key in below line
+
+```pyhton
+
+'Authorization': 'Bearer ' + 'API-KEY' # Your API Key here
+
+```
+
 # Installation for Windows
 
 1. Download `Python`
