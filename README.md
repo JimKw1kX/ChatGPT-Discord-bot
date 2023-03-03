@@ -15,7 +15,7 @@ https://www.python.org/downloads/
 
 ```powershell
 
-C:\User\user> pip3 install requests
+C:\Users\user> pip3 install requests
 
 ```
 3. Install `jq`
