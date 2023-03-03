@@ -52,6 +52,8 @@ PS C:\Windows\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [Syste
 
 ![Picture3.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/Figure%203.png)
 
+3. Running from Windows CMD
 
+![Picture4.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/Windows.png)
 
 Credit: [GrimOutlaw](https://github.com/GrimOutlaw/ChatGPT-Bypass)
