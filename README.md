@@ -5,6 +5,42 @@
 This tool leverages the [text-davinci-003](https://platform.openai.com/docs/models/gpt-3-5) API model and it does not restric malicous contents referring to this [blog](https://arstechnica.com/information-technology/2023/02/now-open-fee-based-telegram-service-that-uses-chatgpt-to-generate-malware/).
 
 
+# Installation for Windows
+
+1. Download python  
+
+https://www.python.org/downloads/
+
+2. Install requests
+
+```bash
+
+pip3 install requests
+
+```
+3. Install jq
+
+https://github.com/stedolan/jq/releases/download/jq-1.6/jq-win64.exe
+
+
+Install from PowerShell
+
+run Powershell as Administrator
+
+then
+
+```
+choco install jq -y
+ 
+```
+if choco is not installed then run
+
+```powershell
+
+PS C:\Windows\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')) 
+
+```
+
 
 # Demo
 
