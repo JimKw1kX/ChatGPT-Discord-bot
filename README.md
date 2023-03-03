@@ -13,7 +13,10 @@ Then replce the `API-KEY` with your key in below line
 
 ```json
 
-'Authorization': 'Bearer ' + 'API-KEY' # Your API Key here
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + 'API-KEY' # Your API Key here
+    }
 
 ```
 
