@@ -20,14 +20,12 @@ pip3 install requests
 ```
 3. Install jq
 
+3.1 Download from below link
 https://github.com/stedolan/jq/releases/download/jq-1.6/jq-win64.exe
 
+or 3.2 Install from PowerShell
 
-Install from PowerShell
-
-run Powershell as Administrator
-
-then
+run Powershell as Administrator then run
 
 ```
 choco install jq -y
