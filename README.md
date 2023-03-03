@@ -13,10 +13,10 @@ Then replce the `API-KEY` value with the key in below line
 
 ```js
 
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer ' + 'API-KEY' # Your API Key here
-    }
+headers = {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer ' + 'API-KEY' # Your API Key here
+}
 
 ```
 
