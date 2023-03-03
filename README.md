@@ -11,7 +11,7 @@ You will need to add a API key from your OpenAI account as blow shown
 
 Then replce the `API-KEY` with your key in below line
 
-```pyhton
+```pyhton3
 
 'Authorization': 'Bearer ' + 'API-KEY' # Your API Key here
 
