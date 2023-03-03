@@ -7,18 +7,18 @@ This tool leverages the [text-davinci-003](https://platform.openai.com/docs/mode
 
 # Installation for Windows
 
-1. Download python  
+1. Download `python`
 
 https://www.python.org/downloads/
 
-2. Install requests
+2. Install `requests`
 
 ```bash
 
-pip3 install requests
+pip3 install `requests`
 
 ```
-3. Install jq
+3. Install `jq`
 
 3.1 Download from below link
 https://github.com/stedolan/jq/releases/download/jq-1.6/jq-win64.exe
