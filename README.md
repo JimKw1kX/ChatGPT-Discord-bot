@@ -6,7 +6,7 @@ This tool was built based on [ChatGPT bypass](https://github.com/GrimOutlaw/Chat
 
 
 
-# Demp
+# Demo
 
 1. Before ask ChatGPT
 
