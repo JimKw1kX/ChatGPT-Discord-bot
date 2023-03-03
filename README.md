@@ -7,7 +7,7 @@ This tool leverages the [text-davinci-003](https://platform.openai.com/docs/mode
 
 # Installation for Windows
 
-1. Download `python`
+1. Download `Python`
 
 https://www.python.org/downloads/
 
