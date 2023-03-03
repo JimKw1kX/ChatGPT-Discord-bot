@@ -9,9 +9,9 @@ You will need to add a API key from your OpenAI account as blow shown
 
 ![Figure 4](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/API.png)
 
-Then replce the `API-KEY` with your key in below line
+Then replce the `API-KEY` value with the key in below line
 
-```json
+```js
 
     headers = {
         'Content-Type': 'application/json',
