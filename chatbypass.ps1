@@ -1,16 +1,16 @@
+Write-Host "                                   " 
 Write-Host "░█████╗░██╗░░██╗░█████╗░████████╗░██████╗░██████╗░████████╗  ██████╗░██╗░░░██╗██████╗░░█████╗░░██████╗░██████╗"  -ForegroundColor Green
 Write-Host "██╔══██╗██║░░██║██╔══██╗╚══██╔══╝██╔════╝░██╔══██╗╚══██╔══╝  ██╔══██╗╚██╗░██╔╝██╔══██╗██╔══██╗██╔════╝██╔════╝" -ForegroundColor Green
 Write-Host "██║░░╚═╝███████║███████║░░░██║░░░██║░░██╗░██████╔╝░░░██║░░░  ██████╦╝░╚████╔╝░██████╔╝███████║╚█████╗░╚█████╗░" -ForegroundColor Green
 Write-Host "██║░░██╗██╔══██║██╔══██║░░░██║░░░██║░░╚██╗██╔═══╝░░░░██║░░░  ██╔══██╗░░╚██╔╝░░██╔═══╝░██╔══██║░╚═══██╗░╚═══██╗" -ForegroundColor Green
 Write-Host "╚█████╔╝██║░░██║██║░░██║░░░██║░░░╚██████╔╝██║░░░░░░░░██║░░░  ██████╦╝░░░██║░░░██║░░░░░██║░░██║██████╔╝██████╔╝" -ForegroundColor Green
 Write-Host "░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░░░░╚═╝░░░  ╚═════╝░░░░╚═╝░░░╚═╝░░░░░╚═╝░░╚═╝╚═════╝░╚═════╝░" -ForegroundColor Green
-Write-Host "                                   " -ForegroundColor Green
+Write-Host "                                   " 
 Write-Host "                                   A project by Jim Solomon" -ForegroundColor Green
+Write-Host "                                   " 
 while($True)
 {
     $input = Read-Host "Please enter your quesion here:$"
-    Write-Host "`n[+] Input: $input"
-    Write-Host "`n[+] Output:"
 
     $body = @{
         prompt = $input
