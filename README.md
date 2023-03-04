@@ -15,7 +15,7 @@ Then replce the `API-KEY` value with the key in below line
     'Authorization': 'Bearer ' + 'API-KEY' # Your API Key here
 ```
 
-# Some Installations for Windows if you want to run `Python`, or you could just run the `PowerShell` script
+# Some Installations for Windows if you want to run `Python`, or you could just run the [PowerShell](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/chatbypass.ps1) script
 
 1. Download `Python`
 
