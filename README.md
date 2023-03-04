@@ -15,7 +15,7 @@ Then replce the `API-KEY` value with the key in below line
     'Authorization': 'Bearer ' + 'API-KEY' # Your API Key here
 ```
 
-# Installation for Windows
+# Some Installations for Windows if you want to run `Python`, or you could just run the `PowerShell` script
 
 1. Download `Python`
 
@@ -66,8 +66,13 @@ PS C:\Windows\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [Syste
 
 ![Picture3.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/Figure%203.png)
 
-3. Running from Windows CMD
+3. Running `Python` from Windows CMD
 
 ![Picture4.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/Windows.png)
+
+4. Running `PowerShell` 
+
+![Powershell.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/powershell.png)
+
 
 Credit: [GrimOutlaw](https://github.com/GrimOutlaw/ChatGPT-Bypass)
