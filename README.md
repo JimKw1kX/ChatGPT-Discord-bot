@@ -1,6 +1,6 @@
 # ChatGPT-Bypass
 
-# Disclaimer: This tool is for educational purposes only!
+# Disclaimer :warning:: This tool is for educational purposes only!
 
 This tool leverages the [text-davinci-003](https://platform.openai.com/docs/models/gpt-3-5) API model and it does not restric malicious contents referring to this [blog](https://arstechnica.com/information-technology/2023/02/now-open-fee-based-telegram-service-that-uses-chatgpt-to-generate-malware/).
 
