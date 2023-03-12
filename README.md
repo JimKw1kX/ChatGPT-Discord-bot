@@ -2,7 +2,7 @@
 
 # Disclaimer:warning:: This tool is for educational purposes only!
 
-This tool leverages the [text-davinci-003](https://platform.openai.com/docs/models/gpt-3-5) API model and it does not restric malicious contents referring to this [blog](https://arstechnica.com/information-technology/2023/02/now-open-fee-based-telegram-service-that-uses-chatgpt-to-generate-malware/).
+This tool leverages the [text-davinci-003](https://platform.openai.com/docs/models/gpt-3-5) API model that does not restric malicious contents referring to this [blog](https://arstechnica.com/information-technology/2023/02/now-open-fee-based-telegram-service-that-uses-chatgpt-to-generate-malware/).
 
 
 You will need to add a API key from your OpenAI account as blow shown
@@ -71,4 +71,4 @@ PS C:\Windows\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [Syste
 ![Picture4.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/Windows.png)
 
 
-Credit: [GrimOutlaw](https://github.com/GrimOutlaw/ChatGPT-Bypass)
+Credit: GrimOutlaw
