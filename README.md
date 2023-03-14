@@ -32,9 +32,9 @@ C:\Users\user> pip3 install requests
 3.1 Download from the link to install: 
 https://github.com/stedolan/jq/releases/download/jq-1.6/jq-win64.exe
 
-or Install from `PowerShell`
+Or Install from `PowerShell`
 
-run Powershell as Administrator then run
+Run Powershell as `Administrator` then run
 
 ```powershell
 
