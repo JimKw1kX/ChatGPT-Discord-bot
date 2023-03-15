@@ -1,10 +1,13 @@
 import nest_asyncio
-nest_asyncio.apply()
 import os
 import discord
 from discord.ext import commands
 import openai
 import asyncio
+
+
+nest_asyncio.apply()
+
 
 async def my_coroutine():
 
