@@ -15,7 +15,7 @@ async def time_consuming_operation():
     # Perform time-consuming operation here
     await asyncio.sleep(10)
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 # openai.api_base = "https://api.openai.com/v1/chat"  # Specify the API endpoint
 
 
@@ -53,7 +53,7 @@ async def my_coroutine(message):
 async def on_message(message):
     await my_coroutine(message)
 
-bot.run('MTA4NTMxOTM4MjExNDIzODU5NQ.GIiaqM.MBvdP2kftSrL977r3yRVTM99ozbJkNX_iQ4aoY')
+bot.run('')
 loop = asyncio.get_event_loop()
 loop.run_until_complete(my_coroutine())
 
