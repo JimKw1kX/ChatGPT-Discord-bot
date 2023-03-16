@@ -69,7 +69,7 @@ PS C:\Windows\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [Syste
 
 ![Picture4.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/Windows.png)
 
-4. Discord-bot
+4. ![Discord-bot](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/discord-bot.py)
 ![Dicord-bot.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/2023-03-15_00-14.png)
 ![funnychat.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/2023-03-15_00-58.png)
 ![funnychat2.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/image.png)
