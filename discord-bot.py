@@ -15,12 +15,12 @@ async def time_consuming_operation():
     # Perform time-consuming operation here
     await asyncio.sleep(10)
 
-os.environ['OPENAI_API_KEY'] = ''
-# openai.api_base = "https://api.openai.com/v1/chat"  # Specify the API endpoint
+os.environ['OPENAI_API_KEY'] = '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'
+# openai.api_base = "https://api.openai.com/v1/completions"
 
 
 # Set up the Discord bot
-intents = discord.Intents.default()
+intents = discord.Intents.all()
 intents.members = True
 bot = commands.Bot(command_prefix='!',intents=intents)
 
@@ -40,6 +40,7 @@ async def my_coroutine(message):
         prompt=message.content,
         max_tokens=4000,
         temperature=1.0,
+        n =1,
     )
 
     # Send the response back to the user
@@ -53,7 +54,7 @@ async def my_coroutine(message):
 async def on_message(message):
     await my_coroutine(message)
 
-bot.run('')
+bot.run('MTA4NTMxOTM4MjExNDIzODU5NQ.GIiaqM.MBvdP2kftSrL977r3yRVTM99ozbJkNX_iQ4aoY')
 loop = asyncio.get_event_loop()
 loop.run_until_complete(my_coroutine())
 
