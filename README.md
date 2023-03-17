@@ -72,6 +72,5 @@ PS C:\Windows\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [Syste
 4. [Discord-bot](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/discord-bot.py)
 # Note: You can now talk to the bot without type `!talk` command
 
-![Dicord-bot.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/2023-03-15_00-14.png)
 ![funnychat.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/2023-03-15_00-58.png)
-![funnychat2.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/image.png)
+
