@@ -15,7 +15,7 @@ async def time_consuming_operation():
     # Perform time-consuming operation here
     await asyncio.sleep(10)
 
-os.environ['OPENAI_API_KEY'] = ''
+os.environ['OPENAI_API_KEY'] = 'openapi-api-key'
 # openai.api_base = "https://api.openai.com/v1/completions"
 
 
@@ -54,7 +54,7 @@ async def my_coroutine(message):
 async def on_message(message):
     await my_coroutine(message)
 
-bot.run('')
+bot.run('bot-token')
 loop = asyncio.get_event_loop()
 loop.run_until_complete(my_coroutine())
 
