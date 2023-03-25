@@ -2,6 +2,8 @@ import requests
 import subprocess
 import os
 import time
+import readline
+
 
 print("-" * 120)
 print("                                                                                                      ") 
