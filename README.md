@@ -1,6 +1,6 @@
 # ChatGPT-Bypass
 
-# Disclaimer:warning:: This project is licensed under the terms of the MIT license.
+# Note:warning:: This project is licensed under the terms of the MIT license.
 
 This tool leverages the [text-davinci-003](https://platform.openai.com/docs/models/gpt-3-5) API model that does not restric malicious contents. Details referring to this [blog](https://arstechnica.com/information-technology/2023/02/now-open-fee-based-telegram-service-that-uses-chatgpt-to-generate-malware/).
 
