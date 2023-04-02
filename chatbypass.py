@@ -1,9 +1,11 @@
+#!/usr/bin/python3
+
+
 import requests
 import subprocess
 import os
 import time
 import readline
-
 
 print("-" * 120)
 print("                                                                                                      ") 
@@ -38,10 +40,16 @@ while True:
     
     url = 'https://api.openai.com/v1/completions'
 
-    response = requests.post(url, headers=headers, json=json_data)
+    print('Contacting server...')
 
-    process = subprocess.Popen(['jq', '-r', '.choices[].text'], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
-    output, error = process.communicate(input=response.content)
+    response = requests.post(url, headers=headers, json=json_data, timeout=60)
 
-    print(output.decode())
-    time.sleep(1)
+    print('Processing response...')
+
+    if response.content:
+        process = subprocess.Popen(['jq', '-r', '.choices[].text'], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+        output, error = process.communicate(input=response.content)
+
+        print(output.decode())
+    else:
+        print('OpenAI coudn\'t generate a response :(')
