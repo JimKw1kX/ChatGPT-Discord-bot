@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
-
 import nest_asyncio
 import os
 import discord
 from discord.ext import commands
 import openai
+import textwrap
 import asyncio
 
 
@@ -15,7 +15,7 @@ async def time_consuming_operation():
     # Perform time-consuming operation here
     await asyncio.sleep(10)
 
-os.environ['OPENAI_API_KEY'] = 'openapi-api-key'
+os.environ['OPENAI_API_KEY'] = 'API-KEY'
 # openai.api_base = "https://api.openai.com/v1/completions"
 
 
@@ -33,32 +33,35 @@ async def my_coroutine(message):
     if message.author == bot.user:
         return
     task = asyncio.create_task(time_consuming_operation())
-
-    # Generate a response using OpenAI API
-    response = openai.Completion.create(
-        model='text-davinci-003',
-        prompt=message.content,
-        max_tokens=4000,
-        temperature=1.0,
-        n =1,
+    print(message)
+    
+# Generate a response using OpenAI API
+    try:
+        response = openai.Completion.create(
+            model='text-davinci-003',
+            prompt=message.content,
+            max_tokens=4000,
+            temperature=1.0,
+            n =1,
     )
+    
+    except Exception as e:
+        print(e)
+        print(e.__dict__)
+    
+    # Split the response into chunks of 2000 characters or less and send each chunk as a separate message
+    response_text = response.choices[0].text
+    while len(response_text) > 0:
+        await message.channel.send(response_text[:2000])
+        response_text = response_text[2000:]
 
-    # Send the response back to the user
-    print("Doing other things while time-consuming operation runs...")
-    await message.channel.send(response.choices[0].text)
     await task
-    print("Time-consuming operation is complete.")
-
-# Define an event handler to call the coroutine when a message is received
+            
 @bot.event
 async def on_message(message):
     await my_coroutine(message)
+    
 
 bot.run('bot-token')
 loop = asyncio.get_event_loop()
 loop.run_until_complete(my_coroutine())
-
-
-
-
-
