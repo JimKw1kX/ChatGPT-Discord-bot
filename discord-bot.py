@@ -16,7 +16,6 @@ async def time_consuming_operation():
     await asyncio.sleep(10)
 
 os.environ['OPENAI_API_KEY'] = 'API-KEY'
-# openai.api_base = "https://api.openai.com/v1/completions"
 
 
 # Set up the Discord bot
