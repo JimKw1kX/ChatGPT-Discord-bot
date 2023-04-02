@@ -61,6 +61,6 @@ async def on_message(message):
     await my_coroutine(message)
     
 
-bot.run('bot-token')
+bot.run('BOT-TOKEN')
 loop = asyncio.get_event_loop()
 loop.run_until_complete(my_coroutine())
