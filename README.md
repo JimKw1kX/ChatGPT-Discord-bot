@@ -1,6 +1,6 @@
 # ChatGPT-Bypass
 
-# Note:warning:: This project is licensed under the terms of the Mozilla Public License 2.0.
+# Note:warning:: This project is licensed under the terms of the Mozilla Public License 2.0 and only for educational purpose.
 
 # Additional contributions from: 
 
