@@ -2,7 +2,7 @@
 
 # Note:warning:: This project is licensed under the terms of the Mozilla Public License 2.0.
 
-Credit: Joshua Saxby (saxbophone) <joshua.a.saxby@gmail.com>
+# Additional contributions from: Joshua Saxby (saxbophone) <joshua.a.saxby@gmail.com>
 
 This tool leverages the [text-davinci-003](https://platform.openai.com/docs/models/gpt-3-5) API model that does not restric malicious contents. Details referring to this [blog](https://arstechnica.com/information-technology/2023/02/now-open-fee-based-telegram-service-that-uses-chatgpt-to-generate-malware/).
 
