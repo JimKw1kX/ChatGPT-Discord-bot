@@ -57,7 +57,7 @@ PS C:\Windows\system32> choco install jq -y
 
 ```
 
-if choco is not installed then run
+if `choco` is not installed then run
 
 ```powershell
 
