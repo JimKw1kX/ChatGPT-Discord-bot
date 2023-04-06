@@ -20,6 +20,15 @@ Then replce the `API-KEY` value with the key in below line
     'Authorization': 'Bearer ' + 'API-KEY' # Your API Key here
 ```
 
+# Installation for Ubuntu
+
+```bash
+
+pip3 install requests discord openai
+
+```
+
+
 # Installation for Windows 
 
 1. Download `Python`
@@ -30,7 +39,7 @@ https://www.python.org/downloads/
 
 ```powershell
 
-C:\Users\user> pip3 install requests
+C:\Users\user> pip3 install requests discord openai
 
 ```
 3. Install `jq`
