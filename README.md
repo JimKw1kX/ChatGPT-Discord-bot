@@ -20,7 +20,7 @@ Then replce the `API-KEY` value with the key in below line
     'Authorization': 'Bearer ' + 'API-KEY' # Your API Key here
 ```
 
-# Installation for Ubuntu
+# Install Pyhton dependencies for Ubuntu
 
 ```bash
 
@@ -35,7 +35,7 @@ pip3 install requests discord openai
 
 https://www.python.org/downloads/
 
-2. Install `requests` via CMD
+2. Install Pyhton dependencies via CMD
 
 ```powershell
 
