@@ -27,7 +27,7 @@ Then replce the `API-KEY` value with the key in below line
 pip3 install requests discord openai
 
 ```
-# 2. Install `jq`
+# 2. Install [jq](https://linuxhint.com/bash_jq_command/)
 
 ```bash
 sudo apt install jq
