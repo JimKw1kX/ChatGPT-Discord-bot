@@ -20,14 +20,18 @@ Then replce the `API-KEY` value with the key in below line
     'Authorization': 'Bearer ' + 'API-KEY' # Your API Key here
 ```
 
-# Install Python dependencies for Ubuntu
+# 1. Install Python dependencies for Ubuntu
 
 ```bash
 
 pip3 install requests discord openai
 
 ```
+# 2. Install `jq`
 
+```bash
+sudo apt install jq
+```
 
 # Installation for Windows 
 
