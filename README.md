@@ -48,7 +48,9 @@ C:\Users\user> pip3 install requests discord openai
 ```
 3. Install `jq`
 
-3.1 Download from the [link](https://github.com/stedolan/jq/releases/download/jq-1.6/jq-win64.exe) to install: 
+3.1 Download from below link to install: 
+
+https://github.com/stedolan/jq/releases/download/jq-1.6/jq-win64.exe
 
 Or Install from `PowerShell`, Run Powershell as `Administrator` then run
 
