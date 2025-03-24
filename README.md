@@ -1,6 +1,6 @@
 # ChatGPT-Bypass&Discord-bot            
 
-# Note:warning:: This project is licensed under the terms of the Mozilla Public License 2.0 and only for educational purpose.
+# ⚠️ Note: This project is licensed under the terms of the Mozilla Public License 2.0 and only for educational purpose.
 
 # Additional contributions from: 
 
